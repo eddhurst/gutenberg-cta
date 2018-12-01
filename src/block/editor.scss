@@ -1,0 +1,16 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.wp-block-brunel-cta-block{
+    .editor-block-list__layout{
+        [data-type="brunel/cta-block"]{
+            max-width:100%;
+            padding-left: 0px;
+            padding-right: 0px;
+	    }
+    }
+}

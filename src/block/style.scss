@@ -1,0 +1,16 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend + Backend.
+ */
+
+.wp-block-brunel-cta-block{
+    background-position: center;
+    background-size: cover;
+    padding: 3em 2em;
+    margin-bottom: 2em;
+
+    &.has-parallax{
+        background-attachment: fixed;
+    }
+}
