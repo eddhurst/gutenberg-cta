@@ -1,3 +1,25 @@
+# Gutenberg Call To Action block
+
+This block heavily borrows and extends functionality from the core/cover component, to allow us to first upload an image, and then specifies a set template (heading, paragraph, button) to give more control over the content than just the single line of text available in the Cover component.
+
+Additionally - I have included some styles to set the background as fixed, to give a "parallax" style effect.
+
+Please feel free to take this and extend it as per your requirements.
+
+---
+
+# Extending
+
+All of the block-specific files are available in `/src/block/*`
+
+---
+
+This project utilises Gutenberg, the latest WordPress editor soon to be packaged as part of WordPress.
+
+It is in active development, please be aware that any updates may break functionality as things get added, moved or removed from the project.
+
+---
+
 This project was bootstrapped with [Create Guten Block](https://github.com/ahmadawais/create-guten-block).
 
 Below you will find some information on how to run scripts.
@@ -12,14 +34,6 @@ Below you will find some information on how to run scripts.
 - Use to build production code for your block inside `dist` folder.
 - Runs once and reports back the gzip file sizes of the produced code.
 
-## 👉  `npm run eject`
-- Use to eject your plugin out of `create-guten-block`.
-- Provides all the configurations so you can customize the project as you want.
-- It's a one-way street, `eject` and you have to maintain everything yourself.
-- You don't normally have to `eject` a project because by ejecting you lose the connection with `create-guten-block` and from there onwards you have to update and maintain all the dependencies on your own.
-
 ---
 
-###### Feel free to tweet and say 👋 at me [@MrAhmadAwais](https://twitter.com/mrahmadawais/)
-
-[![npm](https://img.shields.io/npm/v/create-guten-block.svg?style=flat-square)](https://www.npmjs.com/package/create-guten-block) [![npm](https://img.shields.io/npm/dt/create-guten-block.svg?style=flat-square&label=downloads)](https://www.npmjs.com/package/create-guten-block)  [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/ahmadawais/create-guten-block) [![Tweet for help](https://img.shields.io/twitter/follow/mrahmadawais.svg?style=social&label=Tweet%20@MrAhmadAwais)](https://twitter.com/mrahmadawais/) [![GitHub stars](https://img.shields.io/github/stars/ahmadawais/create-guten-block.svg?style=social&label=Stars)](https://github.com/ahmadawais/create-guten-block/stargazers) [![GitHub followers](https://img.shields.io/github/followers/ahmadawais.svg?style=social&label=Follow)](https://github.com/ahmadawais?tab=followers)
+###### Big thanks to [@MrAhmadAwais](https://twitter.com/mrahmadawais/) for creating the [Create Guten Block] resource.
